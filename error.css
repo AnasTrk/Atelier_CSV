@@ -1,0 +1,32 @@
+.error {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.274);
+}
+
+.error_container {
+    position: absolute;
+    width: 50%;
+    height: 20%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #dae1eb;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.times {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    left: 98%;
+    font-size: 40px;
+    transform: translateX(-30px);
+    cursor: pointer;
+}
